@@ -14,7 +14,7 @@ The assignment includes two Python programs: one written by me and another gener
 - **ExchangeRatesAI.py** – The AI-generated program which uses Python's built-in csv module to read the exchange rate data.
 - **BankOfCanadaExchangeRate_2026.csv** – The Bank of Canada exchange rate data used by both programs.
 
-## Project Comparison
+## Program Comparison
 
 Both my code and the AI-generated code use an ExchangeRates class to read the “Bank of Canada” CSV file and convert between USD and CAD. The main difference is how the programs are structured. My code uses the pandas library which allows me to read the CSV file and get the latest exchange rate in just a few lines. The AI code uses Python's built-in csv module which requires more lines of code but does not need an additional library installed. My code reads the file directly inside the constructor, while the AI code uses a separate read_latest_rate() method. Both programs use the same calculations to convert currencies and produce the correct results.
 
