@@ -23,6 +23,13 @@ The assignment includes two Python programs: one written by me and another gener
 5. Converts the amount using the exchange rate.
 6. Displays the converted amount with dollar signs and two decimal places.
 
+## Sample Output
+
+**Enter the amount:** 100000
+**Convert from (USD or CAD):** USD
+**Convert to (USD or CAD):** CAD
+**$100,000.00 USD = $139,780.00 CAD**
+
 ## Currency Conversion
 
 - **USD to CAD:** Multiply the amount by the USD/CAD exchange rate.
