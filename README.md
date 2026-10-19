@@ -17,6 +17,7 @@ The assignment includes two Python programs: one written by me and another gener
 ## Project Comparison
 
 Both my code and the AI-generated code use an ExchangeRates class to read the “Bank of Canada” CSV file and convert between USD and CAD. The main difference is how the programs are structured. My code uses the pandas library which allows me to read the CSV file and get the latest exchange rate in just a few lines. The AI code uses Python's built-in csv module which requires more lines of code but does not need an additional library installed. My code reads the file directly inside the constructor, while the AI code uses a separate read_latest_rate() method. Both programs use the same calculations to convert currencies and produce the correct results.
+
 Another difference is how the programs handle user input and display the results. My code checks for uppercase and lowercase currency codes separately, while the AI code uses .upper() to handle different capitalizations more easily. The AI code also uses if __name__ == "__main__":, which allows the class to be imported without automatically running the program. Both programs display the converted amount with dollar signs and two decimal places, but the AI code also displays the exchange rate and date used. The AI code includes more comments and explanations, while my code is shorter and simpler. Overall, both programs meet the main requirements, but the AI-generated code is more organized and better documented.
 
 ## How the Program Works
