@@ -26,8 +26,11 @@ The assignment includes two Python programs: one written by me and another gener
 ## Sample Output
 
 **Enter the amount:** 100000
+
 **Convert from (USD or CAD):** USD
+
 **Convert to (USD or CAD):** CAD
+
 **$100,000.00 USD = $139,780.00 CAD**
 
 ## Currency Conversion
