@@ -8,7 +8,6 @@ class ExchangeRates:
         df = pd.read_csv(file_name)
 
         # Get the last row's date and USD/CAD exchange rate
-        self.date = df.iloc[-1, 0]
         self.usd_to_cad = df["FXAUSDCAD"].iloc[-1]
 
     def convert(self, amount, from_currency, to_currency):
